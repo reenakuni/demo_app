@@ -1,0 +1,758 @@
+2011-09-15T07:23:14+00:00 heroku[api]: Add-on add logging:basic by reena.kuni@gmail.com
+2011-09-15T07:23:14+00:00 heroku[api]: Release v3 created by reena.kuni@gmail.com
+2011-09-15T07:23:31+00:00 heroku[slugc]: Slug compilation started
+2011-09-15T07:24:31+00:00 heroku[api]: Deploy 23a9a49 by reena.kuni@gmail.com
+2011-09-15T07:24:31+00:00 heroku[api]: Release v4 created by reena.kuni@gmail.com
+2011-09-15T07:24:32+00:00 heroku[web.1]: State changed from created to starting
+2011-09-15T07:24:32+00:00 heroku[slugc]: Slug compilation finished
+2011-09-15T07:24:36+00:00 app[web.1]: /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:71:in `rescue in establish_connection': Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (pg is not part of the bundle. Add it to Gemfile.) (RuntimeError)
+2011-09-15T07:24:36+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:68:in `establish_connection'
+2011-09-15T07:24:36+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:489:in `load_missing_constant'
+2011-09-15T07:24:36+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:181:in `block in const_missing'
+2011-09-15T07:24:37+00:00 heroku[web.1]: Process exited
+2011-09-15T07:24:37+00:00 heroku[web.1]: State changed from starting to crashed
+2011-09-15T07:24:37+00:00 heroku[web.1]: State changed from crashed to created
+2011-09-15T07:24:37+00:00 heroku[web.1]: State changed from created to starting
+2011-09-15T07:24:44+00:00 heroku[web.1]: State changed from starting to crashed
+2011-09-15T07:24:59+00:00 heroku[rake.1]: State changed from created to starting
+2011-09-15T07:25:02+00:00 app[rake.1]: Awaiting client
+2011-09-15T07:25:02+00:00 app[rake.1]: Starting process with command `bundle exec rake db:migrate`
+2011-09-15T07:25:03+00:00 heroku[rake.1]: State changed from starting to up
+2011-09-15T07:25:05+00:00 heroku[rake.1]: Process exited
+2011-09-15T07:25:06+00:00 heroku[rake.1]: State changed from up to complete
+2011-09-15T07:29:14+00:00 heroku[rake.2]: State changed from created to starting
+2011-09-15T07:29:17+00:00 app[rake.2]: Awaiting client
+2011-09-15T07:29:17+00:00 app[rake.2]: Starting process with command `bundle exec rake db:migrate`
+2011-09-15T07:29:18+00:00 heroku[rake.2]: State changed from starting to up
+2011-09-15T07:29:20+00:00 heroku[rake.2]: Process exited
+2011-09-15T07:29:21+00:00 heroku[rake.2]: State changed from up to complete
+2011-09-15T07:30:17+00:00 heroku[router]: Error H10 (App crashed) -> GET fierce-snow-4893.heroku.com/ dyno= queue= wait= service= status=503 bytes=
+2011-09-15T07:30:17+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:30:17 -0700] "GET / HTTP/1.1" 503 607 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:30:18+00:00 heroku[router]: Error H10 (App crashed) -> GET fierce-snow-4893.heroku.com/favicon.ico dyno= queue= wait= service= status=503 bytes=
+2011-09-15T07:30:18+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:30:18 -0700] "GET /favicon.ico HTTP/1.1" 503 607 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:30:31+00:00 heroku[router]: Error H10 (App crashed) -> GET fierce-snow-4893.heroku.com/ dyno= queue= wait= service= status=503 bytes=
+2011-09-15T07:30:31+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:30:31 -0700] "GET / HTTP/1.1" 503 607 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:30:32+00:00 heroku[router]: Error H10 (App crashed) -> GET fierce-snow-4893.heroku.com/favicon.ico dyno= queue= wait= service= status=503 bytes=
+2011-09-15T07:30:32+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:30:32 -0700] "GET /favicon.ico HTTP/1.1" 503 607 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:36:14+00:00 heroku[web.1]: State changed from crashed to created
+2011-09-15T07:36:14+00:00 heroku[web.1]: State changed from created to starting
+2011-09-15T07:36:16+00:00 heroku[web.1]: Starting process with command `thin -p 25076 -e production -R /home/heroku_rack/heroku.ru start`
+2011-09-15T07:36:21+00:00 app[web.1]: /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:71:in `rescue in establish_connection': Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (pg is not part of the bundle. Add it to Gemfile.) (RuntimeError)
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:68:in `establish_connection'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:60:in `establish_connection'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:55:in `establish_connection'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/railtie.rb:69:in `block (2 levels) in <class:Railtie>'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/lazy_load_hooks.rb:36:in `instanc
+e_eval'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/lazy_load_hooks.rb:42:in `each'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/base.rb:2184:in `<top (required)>'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/app/models/micropost.rb:1:in `<top (required)>'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `require'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `block in require'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:225:in `load_dependency'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `require'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:348:in `require_or_load'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:489:in `load_missing_constant'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:181:in `block in const_missing'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:179:in `each'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:179:in `const_missing'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/inflector/methods.rb:124:in `block in constantize'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/inflector/methods.rb:123:in `each'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/inflector/methods.rb:123:in `constantize'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/core_
+ext/string/inflections.rb:43:in `constantize'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:148:in `_default_wrap_model'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:167:in `_set_wrapper_defaults'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:128:in `inherited'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.0/lib/abstract_controller/railties/routes_helpers.rb:7:in `block (2 levels) in with'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/rack-1.3.2/lib/rack/builder.rb:51:in `initialize'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/rack-1.3.2/lib/rack/builder.rb:120:in `new'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/rack-1.3.2/lib/rack/builder.rb:120:in `map'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /home/heroku_rack/heroku.ru:18:in `block (2 levels) in <main>'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/rack-1.3.2/lib/rack/builder.rb:51:in `instance_eval'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/rack-1.3.2/lib/rack/builder.rb:51:in `initialize'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /home/heroku_rack/heroku.ru:11:in `new'
+2011-09-15T07:36:21+00:00 app[web.1]: 	from /home/heroku_rack/heroku.ru:11:in `block in <main>'
+2011-09-15T07:36:21+00:00 heroku[web.1]: Process exited
+2011-09-15T07:36:21+00:00 heroku[web.1]: State changed from starting to crashed
+2011-09-15T07:37:16+00:00 heroku[rake.3]: State changed from created to starting
+2011-09-15T07:37:19+00:00 app[rake.3]: Awaiting client
+2011-09-15T07:37:19+00:00 app[rake.3]: Starting process with command `bundle exec rake db:migrate`
+2011-09-15T07:37:20+00:00 heroku[rake.3]: State changed from starting to up
+2011-09-15T07:37:22+00:00 heroku[rake.3]: Process exited
+2011-09-15T07:37:23+00:00 heroku[rake.3]: State changed from up to complete
+2011-09-15T07:39:31+00:00 heroku[rake.4]: State changed from created to starting
+2011-09-15T07:39:33+00:00 app[rake.4]: Awaiting client
+2011-09-15T07:39:34+00:00 app[rake.4]: Starting process with command `bundle exec rake db:migrate`
+2011-09-15T07:39:34+00:00 heroku[rake.4]: State changed from starting to up
+2011-09-15T07:39:37+00:00 heroku[rake.4]: Process exited
+2011-09-15T07:39:37+00:00 heroku[rake.4]: State changed from up to complete
+2011-09-15T07:43:12+00:00 heroku[rake.5]: State changed from created to starting
+2011-09-15T07:43:14+00:00 app[rake.5]: Awaiting client
+2011-09-15T07:43:14+00:00 app[rake.5]: Starting process with command `bundle exec rake db:migrate`
+2011-09-15T07:43:16+00:00 heroku[rake.5]: State changed from starting to up
+2011-09-15T07:43:18+00:00 heroku[rake.5]: Process exited
+2011-09-15T07:43:19+00:00 heroku[rake.5]: State changed from up to complete
+2011-09-15T07:46:11+00:00 heroku[slugc]: Slug compilation started
+2011-09-15T07:47:11+00:00 heroku[web.1]: State changed from crashed to created
+2011-09-15T07:47:11+00:00 heroku[web.1]: State changed from created to starting
+2011-09-15T07:47:13+00:00 heroku[web.1]: Starting process with command `thin -p 7026 -e production -R /home/heroku_rack/heroku.ru start`
+2011-09-15T07:47:15+00:00 heroku[api]: Release v5 created by reena.kuni@gmail.com
+2011-09-15T07:47:15+00:00 heroku[web.1]: State changed from starting to bouncing
+2011-09-15T07:47:15+00:00 heroku[web.1]: State changed from bouncing to created
+2011-09-15T07:47:15+00:00 heroku[web.1]: State changed from created to starting
+2011-09-15T07:47:15+00:00 heroku[slugc]: Slug compilation finished
+2011-09-15T07:47:17+00:00 heroku[web.1]: Starting process with command `thin -p 58286 -e production -R /home/heroku_rack/heroku.ru start`
+2011-09-15T07:47:19+00:00 app[web.1]: /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:71:in `rescue in establish_connection': Please install the postgresql adapter: `gem install activerecord-postgresql-adapter` (pg is not part of the bundle. Add it to Gemfile.) (RuntimeError)
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:68:in `establish_connection'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:60:in `establish_connection'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:55:in `establish_connection'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/railtie.rb:69:in `block (2 levels) in <class:Railtie>'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/lazy_load_hooks.rb:42:in `each'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activerecord-3.1.0/lib/active_record/base.rb:2184:in `<top (required)>'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/app/models/micropost.rb:1:in `<top (required)>'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `require'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `block in require'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:225:in `load_dependency'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `require'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:348:in `require_or_load'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:489:in `load_missing_constant'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:181:in `block in const_missing'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:179:in `each'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:179:in `const_missing'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/inflector/methods.rb:124:in `block in constantize'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/inflector/methods.rb:123:in `each'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/inflector/methods.rb:123:in `constantize'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.0/lib/active_support/core_ext/string/inflections.rb:43:in `constantize'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:148:in `_default_wrap_model'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:167:in `_set_wrapper_defaults'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:128:in `inherited'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.0/lib/abstract_controller/railties/routes_helpers.rb:7:in `block (2 levels) in with'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.0/lib/action_controller/railties/paths.rb:7:in `block (2 levels) in with'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /home/heroku_rack/heroku.ru:11:in `block in <main>'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/rack-1.3.2/lib/rack/builder.rb:51:in `instance_eval'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/rack-1.3.2/lib/rack/builder.rb:51:in `initialize'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /home/heroku_rack/heroku.ru:1:in `new'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /home/heroku_rack/heroku.ru:1:in `<main>'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /usr/ruby1.9.2/lib/ruby/gems/1.9.1/gems/thin-1.2.6/lib/rack/adapter/loader.rb:36:in `eval'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /usr/ruby1.9.2/lib/ruby/gems/1.9.1/gems/thin-1.2.6/lib/rack/adapter/loader.rb:36:in `load'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /usr/ruby1.9.2/lib/ruby/gems/1.9.1/gems/thin-1.2.6/lib/thin/controllers/controller.rb:175:in `load_rackup_config'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /usr/ruby1.9.2/lib/ruby/gems/1.9.1/gems/thin-1.2.6/lib/thin/controllers/controller.rb:65:in `start'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /usr/ruby1.9.2/lib/ruby/gems/1.9.1/gems/thin-1.2.6/lib/thin/runner.rb:177:in `run_command'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /usr/ruby1.9.2/lib/ruby/gems/1.9.1/gems/thin-1.2.6/lib/thin/runner.rb:143:in `run!'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /usr/ruby1.9.2/lib/ruby/gems/1.9.1/gems/thin-1.2.6/bin/thin:6:in `<top (required)>'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /usr/ruby1.9.2/bin/thin:19:in `load'
+2011-09-15T07:47:19+00:00 app[web.1]: 	from /usr/ruby1.9.2/bin/thin:19:in `<main>'
+2011-09-15T07:47:19+00:00 heroku[web.1]: Process exited
+2011-09-15T07:47:21+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
+2011-09-15T07:47:21+00:00 app[web.1]: >> Maximum connections set to 1024
+2011-09-15T07:47:21+00:00 app[web.1]: >> Listening on 0.0.0.0:58286, CTRL+C to stop
+2011-09-15T07:47:22+00:00 heroku[web.1]: State changed from starting to up
+2011-09-15T07:47:40+00:00 heroku[rake.6]: State changed from created to starting
+2011-09-15T07:47:42+00:00 app[rake.6]: Awaiting client
+2011-09-15T07:47:42+00:00 app[rake.6]: Starting process with command `bundle exec rake db:migrate`
+2011-09-15T07:47:42+00:00 heroku[rake.6]: State changed from starting to up
+2011-09-15T07:47:45+00:00 heroku[rake.6]: Process 
+exited
+2011-09-15T07:47:46+00:00 heroku[rake.6]: State changed from up to complete
+2011-09-15T07:48:08+00:00 app[web.1]: cache: [GET /] miss
+2011-09-15T07:48:08+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/ dyno=web.1 queue=0 wait=0ms service=20ms status=200 bytes=5907
+2011-09-15T07:48:08+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:48:08 -0700] "GET / HTTP/1.1" 200 1865 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:48:08+00:00 app[web.1]: 
+2011-09-15T07:48:08+00:00 app[web.1]: 
+2011-09-15T07:48:08+00:00 app[web.1]: Started GET "/assets/rails.png" for 75.71.86.184 at 2011-09-15 00:48:08 -0700
+2011-09-15T07:48:08+00:00 app[web.1]: cache: [GET /assets/rails.png] miss, store
+2011-09-15T07:48:08+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:48:08 -0700] "GET /assets/rails.png HTTP/1.1" 200 6646 "http://fierce-snow-4893.heroku.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:48:08+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=20ms status=200 bytes=6646
+2011-09-15T07:48:09+00:00 app[web.1]: cache: [GET /favicon.ico] miss
+2011-09-15T07:48:09+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:48:09 -0700] "GET /favicon.ico HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:48:09+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=4ms status=200 bytes=0
+2011-09-15T07:48:18+00:00 app[web.1]: 
+2011-09-15T07:48:18+00:00 app[web.1]: 
+2011-09-15T07:48:18+00:00 app[web.1]: Started GET "/users" for 75.71.86.184 at 2011-09-15 00:48:18 -0700
+2011-09-15T07:48:18+00:00 app[web.1]:   Processing by UsersController#index as HTML
+2011-09-15T07:48:19+00:00 app[web.1]: Rendered users/index.html.erb within layouts/application (24.0ms)
+2011-09-15T07:48:19+00:00 app[web.1]: Completed 500 Internal Server Error in 106ms
+2011-09-15T07:48:19+00:00 app[web.1]: 
+2011-09-15T07:48:19+00:00 app[web.1]: ActionView::Template::Error (application.css isn't precompiled):
+2011-09-15T07:48:19+00:00 app[web.1]:     2: <html>
+2011-09-15T07:48:19+00:00 app[web.1]:     3: <head>
+2011-09-15T07:48:19+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-15T07:48:19+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-15T07:48:19+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-15T07:48:19+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-15T07:48:19+00:00 app[web.1]:     8: </head>
+2011-09-15T07:48:19+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/users dyno=web.1 queue=0 wait=0ms service=164ms status=500 bytes=728
+2011-09-15T07:48:19+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3177979341326349880_20779580'
+2011-09-15T07:48:19+00:00 app[web.1]:   app/controllers/users_controller.rb:7:in `index'
+2011-09-15T07:48:19+00:00 app[web.1]: 
+2011-09-15T07:48:19+00:00 app[web.1]: 
+2011-09-15T07:48:19+00:00 app[web.1]: cache: [GET /users] miss
+2011-09-15T07:48:19+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:48:19 -0700] "GET /users HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:50:08+00:00 app[web.1]: 
+2011-09-15T07:50:08+00:00 app[web.1]: 
+2011-09-15T07:50:08+00:00 app[web.1]: Started GET "/users" for 75.71.86.184 at 2011-09-15 00:50:08 -0700
+2011-09-15T07:50:08+00:00 app[web.1]:   Processing by UsersController#index as HTML
+2011-09-15T07:50:08+00:00 app[web.1]: Rendered users/index.html.erb within layouts/application (2.4ms)
+2011-09-15T07:50:08+00:00 app[web.1]: Completed 500 Internal Server Error in 9ms
+2011-09-15T07:50:08+00:00 app[web.1]: 
+2011-09-15T07:50:08+00:00 app[web.1]: ActionView::Template::Error (application.css isn't precompiled):
+2011-09-15T07:50:08+00:00 app[web.1]:     2: <html>
+2011-09-15T07:50:08+00:00 app[web.1]:     3: <head>
+2011-09-15T07:50:08+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-15T07:50:08+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-15T07:50:08+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-15T07:50:08+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-15T07:50:08+00:00 app[web.1]:     8: </head>
+2011-09-15T07:50:08+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/users dyno=web.1 queue=0 wait=0ms service=21ms status=500 bytes=728
+2011-09-15T07:50:08+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3177979341326349880_20779580'
+2011-09-15T07:50:08+00:00 app[web.1]:   app/controllers/users_controller.rb:7:in `index'
+2011-09-15T07:50:08+00:00 app[web.1]: 
+2011-09-15T07:50:08+00:00 app[web.1]: 
+2011-09-15T07:50:08+00:00 app[web.1]: cache: [GET /users] miss
+2011-09-15T07:50:08+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:50:08 -0700] "GET /users HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:50:17+00:00 app[web.1]: 
+2011-09-15T07:50:17+00:00 app[web.1]: 
+2011-09-15T07:50:17+00:00 app[web.1]: Started GET "/microposts" for 75.71.86.184 at 2011-09-15 00:50:17 -0700
+2011-09-15T07:50:17+00:00 app[web.1]:   Processing by MicropostsController#index as HTML
+2011-09-15T07:50:17+00:00 app[web.1]: Rendered microposts/index.html.erb within layouts/application (7.0ms)
+2011-09-15T07:50:17+00:00 app[web.1]: Completed 500 Internal Server Error in 21ms
+2011-09-15T07:50:17+00:00 app[web.1]: 
+2011-09-15T07:50:17+00:00 app[web.1]: ActionView::Template::Error (application.css isn't precompiled):
+2011-09-15T07:50:17+00:00 app[web.1]:     2: <html>
+2011-09-15T07:50:17+00:00 app[web.1]:     3: <head>
+2011-09-15T07:50:17+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-15
+T07:50:17+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-15T07:50:17+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-15T07:50:17+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-15T07:50:17+00:00 app[web.1]:     8: </head>
+2011-09-15T07:50:17+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3177979341326349880_20779580'
+2011-09-15T07:50:17+00:00 app[web.1]:   app/controllers/microposts_controller.rb:7:in `index'
+2011-09-15T07:50:17+00:00 app[web.1]: 
+2011-09-15T07:50:17+00:00 app[web.1]: 
+2011-09-15T07:50:17+00:00 app[web.1]: cache: [GET /microposts] miss
+2011-09-15T07:50:17+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/microposts dyno=web.1 queue=0 wait=0ms service=27ms status=500 bytes=728
+2011-09-15T07:50:17+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:50:17 -0700] "GET /microposts HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:50:34+00:00 app[web.1]: 
+2011-09-15T07:50:34+00:00 app[web.1]: 
+2011-09-15T07:50:34+00:00 app[web.1]: Started GET "/googoo" for 75.71.86.184 at 2011-09-15 00:50:34 -0700
+2011-09-15T07:50:34+00:00 app[web.1]: 
+2011-09-15T07:50:34+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/googoo"):
+2011-09-15T07:50:34+00:00 app[web.1]:   
+2011-09-15T07:50:34+00:00 app[web.1]: 
+2011-09-15T07:50:34+00:00 app[web.1]: 
+2011-09-15T07:50:34+00:00 app[web.1]: cache: [GET /googoo] miss
+2011-09-15T07:50:34+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/googoo dyno=web.1 queue=0 wait=0ms service=6ms status=404 bytes=728
+2011-09-15T07:50:34+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:50:34 -0700] "GET /googoo HTTP/1.1" 404 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:50:43+00:00 app[web.1]: 
+2011-09-15T07:50:43+00:00 app[web.1]: 
+2011-09-15T07:50:43+00:00 app[web.1]: Started GET "/micropost" for 75.71.86.184 at 2011-09-15 00:50:43 -0700
+2011-09-15T07:50:43+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/micropost dyno=web.1 queue=0 wait=0ms service=8ms status=404 bytes=728
+2011-09-15T07:50:43+00:00 app[web.1]: 
+2011-09-15T07:50:43+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/micropost"):
+2011-09-15T07:50:43+00:00 app[web.1]:   
+2011-09-15T07:50:43+00:00 app[web.1]: 
+2011-09-15T07:50:43+00:00 app[web.1]: 
+2011-09-15T07:50:43+00:00 app[web.1]: cache: [GET /micropost] miss
+2011-09-15T07:50:43+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:50:43 -0700] "GET /micropost HTTP/1.1" 404 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:50:46+00:00 app[web.1]: 
+2011-09-15T07:50:46+00:00 app[web.1]: 
+2011-09-15T07:50:46+00:00 app[web.1]: Started GET "/microposts" for 75.71.86.184 at 2011-09-15 00:50:46 -0700
+2011-09-15T07:50:46+00:00 app[web.1]:   Processing by MicropostsController#index as HTML
+2011-09-15T07:50:46+00:00 app[web.1]: Rendered microposts/index.html.erb within layouts/application (2.0ms)
+2011-09-15T07:50:46+00:00 app[web.1]: Completed 500 Internal Server Error in 6ms
+2011-09-15T07:50:46+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/microposts dyno=web.1 queue=0 wait=0ms service=14ms status=500 bytes=728
+2011-09-15T07:50:46+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:50:46 -0700] "GET /microposts HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:51:03+00:00 heroku[router]: SSL Not Enabled -> GET fierce-snow-4893.heroku.com/microposts dyno= queue= wait= service= status=403 bytes=
+2011-09-15T07:51:03+00:00 heroku[nginx]: 127.0.0.1 - - [15/Sep/2011:00:51:03 -0700] "GET /microposts HTTP/1.0" 403 2979 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:51:03+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:51:03 -0700] "GET /microposts HTTP/1.1" 403 2979 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:51:03+00:00 heroku[router]: SSL Not Enabled -> GET fierce-snow-4893.heroku.com/favicon.ico dyno= queue= wait= service= status=403 bytes=
+2011-09-15T07:51:03+00:00 heroku[nginx]: 127.0.0.1 - - [15/Sep/2011:00:51:03 -0700] "GET /favicon.ico HTTP/1.0" 403 2979 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:51:03+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:51:03 -0700] "GET /favicon.ico HTTP/1.1" 403 2979 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T07:51:08+00:00 app[web.1]: 
+2011-09-15T07:51:08+00:00 app[web.1]: 
+2011-09-15T07:51:08+00:00 app[web.1]: Started GET "/microposts" for 75.71.86.184 at 2011-09-15 00:51:08 -0700
+2011-09-15T07:51:08+00:00 app[web.1]:   Processing by MicropostsController#index as HTML
+2011-09-15T07:51:08+00:00 app[web.1]: Rendered microposts/index.html.erb within layouts/application (2.9ms)
+2011-09-15T07:51:08+00:00 app[web.1]: Completed 500 Internal Server Error in 7ms
+2011-09-15T07:51:08+00:00 app[web.1]: 
+2011-09-15T07:51:08+00:00 app[web.1]: ActionView::Template::Error (application.css isn't precompiled):
+2011-09-15T07:51:08+00:00 app[web.1]:     2: <html>
+2011-09-15T07:51:08+00:00 app[web.1]:     3: <head>
+2011-09-15T07:51:08+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-15T07:51:08+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-15T07:51:08+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-15T07:51:08+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-15T07:51:08+00:00 app[web.1]:     8: </head>
+2011-09-15T07:51:08+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3177979341326349880_20779580'
+2011-09-15T07:51:08+00:00 app[web.1]:   app/controllers/microposts_controller.rb:7:in `index'
+2011-09-15T07:51:08+00:00 app[web.1]: 
+2011-09-15T07:51:08+00:00 app[web.1]: 
+2011-09-15T07:51:08+00:00 app[web.1]: cache: [GET /microposts] miss
+2011-09-15T07:51:08+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/microposts dyno=web.1 queue=0 wait=0ms service=16ms status=500 bytes=728
+2011-09-15T07:51:08+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:00:51:08 -0700] "GET /microposts HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T08:56:53+00:00 heroku[web.1]: Idling
+2011-09-15T08:56:53+00:00 heroku[web.1]: State changed from up to down
+2011-09-15T08:56:54+00:00 heroku[web.1]: Stopping process with SIGTERM
+2011-09-15T08:56:54+00:00 app[web.1]: >> Stopping ...
+2011-09-15T08:56:54+00:00 heroku[web.1]: Process exited
+2011-09-15T14:42:29+00:00 heroku[web.1]: Unidling
+2011-09-15T14:42:29+00:00 heroku[web.1]: State changed from down to created
+2011-09-15T14:42:29+00:00 heroku[web.1]: State changed from created to starting
+2011-09-15T14:42:31+00:00 heroku[web.1]: Starting process with command `thin -p 17912 -e production -R /home/heroku_rack/heroku.ru start`
+2011-09-15T14:42:35+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
+2011-09-15T14:42:35+00:00 app[web.1]: >> Maximum connections set to 1024
+2011-09-15T14:42:35+00:00 app[web.1]: >> Listening on 0.0.0.0:17912, CTRL+C to stop
+2011-09-15T14:42:35+00:00 heroku[web.1]: State changed from starting to up
+2011-09-15T14:42:36+00:00 app[web.1]: 
+2011-09-15T14:42:36+00:00 app[web.1]: 
+2011-09-15T14:42:36+00:00 app[web.1]: Started GET "/assets/rails.png" for 75.71.86.184 at 2011-09-15 07:42:36 -0700
+2011-09-15T14:42:36+00:00 app[web.1]: cache: [GET /assets/rails.png] miss, store
+2011-09-15T14:42:36+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=31ms status=200 bytes=6646
+2011-09-15T14:42:37+00:00 app[web.1]: 
+2011-09-15T14:42:37+00:00 app[web.1]: 
+2011-09-15T14:42:37+00:00 app[web.1]: Started GET "/microposts" for 75.71.86.184 at 2011-09-15 07:42:37 -0700
+2011-09-15T14:42:37+00:00 app[web.1]:   Processing by MicropostsController#index as HTML
+2011-09-15T14:42:37+00:00 app[web.1]: Rendered microposts/index.html.erb within layouts/application (20.4ms)
+2011-09-15T14:42:37+00:00 app[web.1]: Completed 500 Internal Server Error in 92ms
+2011-09-15T14:42:37+00:00 app[web.1]: 
+2011-09-15T14:42:37+00:00 app[web.1]: ActionView::Template::Error (application.css isn't precompiled):
+2011-09-15T14:42:37+00:00 app[web.1]:     2: <html>
+2011-09-15T14:42:37+00:00 app[web.1]:     3: <head>
+2011-09-15T14:42:37+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-15T14:42:37+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-15T14:42:37+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-15T14:42:37+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-15T14:42:37+00:00 app[web.1]:     8: </head>
+2011-09-15T14:42:37+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__107615997076847992_22372580'
+2011-09-15T14:42:37+00:00 app[web.1]:   app/controllers/microposts_controller.rb:7:in `index'
+2011-09-15T14:42:37+00:00 app[web.1]: 
+2011-09-15T14:42:37+00:00 app[web.1]: 
+2011-09-15T14:42:37+00:00 app[web.1]: cache: [GET /microposts] miss
+2011-09-15T14:42:37+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/microposts dyno=web.1 queue=0 wait=0ms service=146ms status=500 bytes=728
+2011-09-15T14:42:50+00:00 app[web.1]: 
+2011-09-15T14:42:50+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/Users dyno=web.1 queue=0 wait=0ms service=5ms status=404 bytes=728
+2011-09-15T14:42:50+00:00 app[web.1]: 
+2011-09-15T14:42:50+00:00 app[web.1]: Started GET "/Users" for 75.71.86.184 at 2011-09-15 07:42:50 -0700
+2011-09-15T14:42:50+00:00 app[web.1]: 
+2011-09-15T14:42:50+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/Users"):
+2011-09-15T14:42:50+00:00 app[web.1]:   
+2011-09-15T14:42:50+00:00 app[web.1]: 
+2011-09-15T14:42:50+00:00 app[web.1]: 
+2011-09-15T14:42:50+00:00 app[web.1]: cache: [GET /Users] miss
+2011-09-15T14:55:39+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/Users dyno=web.1 queue=0 wait=0ms service=5ms status=404 bytes=728
+2011-09-15T14:55:39+00:00 app[web.1]: 
+2011-09-15T14:55:39+00:00 app[web.1]: 
+2011-09-15T14:55:39+00:00 app[web.1]: Started GET "/Users" for 67.176.50.170 at 2011-09-15 07:55:39 -0700
+2011-09-15T14:55:39+00:00 app[web.1]: 
+2011-09-15T14:55:39+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/Users"):
+2011-09-15T14:55:39+00:00 app[web.1]:   
+2011-09-15T14:55:39+00:00 app[web.1]: 
+2011-09-15T14:55:39+00:00 app[web.1]: 
+2011-09-15T14:55:39+00:00 app[web.1]: cache: [GET /Users] miss
+2011-09-15T14:55:39+00:00 heroku[nginx]: 67.176.50.170 - - [15/Sep/2011:07:55:39 -0700] "GET /Users HTTP/1.1" 404 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T14:55:39+00:00 heroku[nginx]: 67.176.50.170 - - [15/Sep/2011:07:55:39 -0700] "GET /favicon.ico HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T14:59:19+00:00 heroku[slugc]: Slug compilation started
+2011-09-15T15:00:33+00:00 heroku[api]: Deploy f1047b1 by reena.kuni@gmail.com
+2011-09-15T15:00:33+00:00 heroku[api]: Release v6 created by reena.kuni@gmail.com
+2011-09-15T15:00:34+00:00 heroku[web.1]: State changed from up to bouncing
+2011-09-15T15:00:34+00:00 heroku[web.1]: State changed from bouncing to created
+2011-09-15T15:00:34+00:00 heroku[web.1]: State changed from created to starting
+2011-09-15T15:00:34+00:00 heroku[slugc]: Slug compilation finished
+2011-09-15T15:00:35+00:00 heroku[web.1]: Starting process with command `thin -p 31968 -e production -R /home/heroku_rack/heroku.ru start`
+2011-09-15T15:00:36+00:00 heroku[web.1]: Stopping process with SIGTERM
+2011-09-15T15:00:36+00:00 app[web.1]: >> Stopping ...
+2011-09-15T15:00:36+00:00 heroku[web.1]: Process exited
+2011-09-15T15:00:39+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
+2011-09-15T15:00:39+00:00 app[web.1]: >> Maximum connections set to 1024
+2011-09-15T15:00:39+00:00 app[web.1]: >> Listening on 0.0.0.0:31968, CTRL+C to stop
+2011-09-15T15:00:40+00:00 heroku[web.1]: State changed from starting to up
+2011-09-15T15:01:15+00:00 heroku[rake.7]: State changed from created to starting
+2011-09-15T15:01:17+00:00 app[rake.7]: Awaiting client
+2011-09-15T15:01:17+00:00 app[rake.7]: Starting process with command `bundle exec rake db:migrate`
+2011-09-15T15:01:18+00:00 heroku[rake.7]: State changed from starting to up
+2011-09-15T15:01:21+00:00 heroku[rake.7]: Process exited
+2011-09-15T15:01:21+00:00 heroku[rake.7]: State changed from up to complete
+2011-09-15T15:03:25+00:00 app[web.1]: 
+2011-09-15T15:03:25+00:00 app[web.1]: 
+2011-09-15T15:03:25+00:00 app[web.1]: Started GET "/assets/rails.png" for 75.71.86.184 at 2011-09-15 08:03:25 -0700
+2011-09-15T15:03:25+00:00 app[web.1]: cache: [GET /assets/rails.png] miss, store
+2011-09-15T15:03:25+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:08:03:25 -0700] "GET /assets/rails.png HTTP/1.1" 200 6646 "http://fierce-snow-4893.heroku.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T15:03:34+00:00 app[web.1]: 
+2011-09-15T15:03:34+00:00 app[web.1]: 
+2011-09-15T15:03:34+00:00 app[web.1]: Started GET "/users" for 75.71.86.184 at 2011-09-15 08:03:34 -0700
+2011-09-15T15:03:34+00:00 app[web.1]:   Processing by UsersController#index as HTML
+2011-09-15T15:03:34+00:00 app[web.1]: Rendered users/index.html.erb within layouts/application (20.7ms)
+2011-09-15T15:03:34+00:00 app[web.1]: Completed 500 Internal Server Error in 90ms
+2011-09-15T15:03:34+00:00 app[web.1]: 
+2011-09-15T15:03:34+00:00 app[web.1]: ActionView::Template::Error (application.css isn't precompiled):
+2011-09-15T15:03:34+00:00 app[web.1]:     2: <html>
+2011-09-15T15:03:34+00:00 app[web.1]:     3: <head>
+2011-09-15T15:03:34+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-15T15:03:34+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-15T15:03:34+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-15T15:03:34+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-15T15:03:34+00:00 app[web.1]:     8: </head>
+2011-09-15T15:03:34+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1118656529062733393_15889600'
+2011-09-15T15:03:34+00:00 app[web.1]:   app/controllers/users_controller.rb:7:in `index'
+2011-09-15T15:03:34+00:00 app[web.1]: 
+2011-09-15T15:03:34+00:00 app[web.1]: 
+2011-09-15T15:03:34+00:00 app[web.1]: cache: [GET /users] miss
+2011-09-15T15:03:34+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/users dyno=web.1 queue=0 wait=0ms service=151ms status=500 bytes=728
+2011-09-15T15:03:34+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:08:03:34 -0700] "GET /users HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T15:05:40+00:00 app[web.1]: 
+2011-09-15T15:05:40+00:00 app[web.1]: 
+2011-09-15T15:05:40+00:00 app[web.1]: Started GET "/users/1" for 75.71.86.184 at 2011-09-15 08:05:40 -0700
+2011-09-15T15:05:40+00:00 app[web.1]:   Processing by UsersController#show as HTML
+2011-09-15T15:05:40+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2011-09-15T15:05:40+00:00 app[web.1]: Rendered users/show.html.erb within layouts/application (1.0ms)
+2011-09-15T15:05:40+00:00 app[web.1]: Completed 500 Internal Server Error in 17ms
+2011-09-15T15:05:40+00:00 app[web.1]: 
+2011-09-15T15:05:40+00:00 app[web.1]: ActionView::Template::Error (application.css isn't precompiled):
+2011-09-15T15:05:40+00:00 app[web.1]:     2: <html>
+2011-09-15T15:05:40+00:00 app[web.1]:     3: <head>
+2011-09-15T15:05:40+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-15T15:05:40+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-15T15:05:40+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-15T15:05:40+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-15T15:05:40+00:00 app[web.1]:     8: </head>
+2011-09-15T15:05:40+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1118656529062733393_15889600'
+2011-09-15T15:05:40+00:00 app[web.1]:   app/controllers/users_controller.rb:18:in `show'
+2011-09-15T15:05:40+00:00 app[web.1]: 
+2011-09-15T15:05:40+00:00 app[web.1]: 
+2011-09-15T15:05:40+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/users/1 dyno=web.1 queue=0 wait=0ms service=27ms status=500 bytes=728
+2011-09-15T15:05:40+00:00 app[web.1]: cache: [GET /users/1] miss
+2011-09-15T15:05:40+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:08:05:40 -0700] "GET /users/1 HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T15:05:49+00:00 app[web.1]: 
+2011-09-15T15:05:49+00:00 app[web.1]: 
+2011-09-15T15:05:49+00:00 app[web.1]: Started GET "/assets/rails.png" for 75.71.86.184 at 2011-09-15 08:05:49 -0700
+2011-09-15T15:05:49+00:00 app[web.1]: cache: [GET /assets/rails.png] stale, valid, store
+2011-09-15T15:05:49+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=5ms status=200 bytes=6646
+2011-09-15T15:05:49+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:08:05:49 -0700] "GET /assets/rails.png HTTP/1.1" 304 0 "http://fierce-snow-4893.heroku.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T15:06:02+00:00 app[web.1]: 
+2011-09-15T15:06:02+00:00 app[web.1]: 
+2011-09-15T15:06:02+00:00 app[web.1]: Started GET "/rails/info/properties" for 75.71.86.184 at 2011-09-15 08:06:02 -0700
+2011-09-15T15:06:02+00:00 app[web.1]: 
+2011-09-15T15:06:02+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/rails/info/properties dyno=web.1 queue=0 wait=0ms service=6ms status=404 bytes=728
+2011-09-15T15:06:02+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/rails/info/properties"):
+2011-09-15T15:06:02+00:00 app[web.1]:   
+2011-09-15T15:06:02+00:00 app[web.1]: 
+2011-09-15T15:06:02+00:00 app[web.1]: 
+2011-09-15T15:06:02+00:00 app[web.1]: cache: [GET /rails/info/properties] miss
+2011-09-15T15:06:02+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:08:06:02 -0700] "GET /rails/info/properties HTTP/1.1" 404 728 "http://fierce-snow-4893.heroku.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T15:09:40+00:00 app[web.1]: cache: [GET /] miss
+2011-09-15T15:09:40+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/ dyno=web.1 queue=0 wait=0ms service=4ms status=200 bytes=5907
+2011-09-15T15:09:40+00:00 app[web.1]: 
+2011-09-15T15:09:40+00:00 app[web.1]: 
+2011-09-15T15:09:40+00:00 app[web.1]: Started GET "/assets/rails.png" for 75.71.86.184 at 2011-09-15 08:09:40 -0700
+2011-09-15T15:09:40+00:00 app[web.1]: cache: [GET /assets/rails.png] stale, valid, store
+2011-09-15T15:09:40+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=6646
+2011-09-15T15:10:05+00:00 app[web.1]: 
+2011-09-15T15:10:05+00:00 app[web.1]: 
+2011-09-15T15:10:05+00:00 app[web.1]: Started GET "/users/1" for 75.71.86.184 at 2011-09-15 08:10:05 -0700
+2011-09-15T15:10:05+00:00 app[web.1]:   Processing by UsersController#show as HTML
+2011-09-15T15:10:05+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2011-09-15T15:10:05+00:00 app[web.1]: Rendered users/show.html.erb within layouts/application (0.5ms)
+2011-09-15T15:10:05+00:00 app[web.1]: Completed 500 Internal Server Error in 6ms
+2011-09-15T15:10:05+00:00 app[web.1]: 
+2011-09-15T15:10:05+00:00 app[web.1]: ActionView::Template::Error (application.css isn't precompiled):
+2011-09-15T15:10:05+00:00 app[web.1]:     2: <html>
+2011-09-15T15:10:05+00:00 app[web.1]:     3: <head>
+2011-09-15T15:10:05+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-15T15:10:05+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-15T15:10:05+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-15T15:10:05+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-15T15:10:05+00:00 app[web.1]:     8: </head>
+2011-09-15T15:10:05+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1118656529062733393_15889600'
+2011-09-15T15:10:05+00:00 app[web.1]:   app/controllers/users_controller.rb:18:in `show'
+2011-09-15T15:10:05+00:00 app[web.1]: 
+2011-09-15T15:10:05+00:00 app[web.1]: 
+2011-09-15T15:10:05+00:00 app[web.1]: cache: [GET /users/1] miss
+2011-09-15T15:10:05+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/users/1 dyno=web.1 queue=0 wait=0ms service=16ms status=500 bytes=728
+2011-09-15T15:10:10+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/ dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=5907
+2011-09-15T15:10:10+00:00 app[web.1]: cache: [GET /] miss
+2011-09-15T15:10:10+00:00 app[web.1]: 
+2011-09-15T15:10:10+00:00 app[web.1]: 
+2011-09-15T15:10:10+00:00 app[web.1]: Started GET "/assets/rails.png" for 75.71.86.184 at 2011-09-15 08:10:10 -0700
+2011-09-15T15:10:10+00:00 app[web.1]: cache: [GET /assets/rails.png] stale, valid, store
+2011-09-15T15:10:24+00:00 app[web.1]: 
+2011-09-15T15:10:24+00:00 app[web.1]: 
+2011-09-15T15:10:24+00:00 app[web.1]: Started GET "/users" for 75.71.86.184 at 2011-09-15 08:10:24 -0700
+2011-09-15T15:10:24+00:00 app[web.1]:   Processing by UsersController#index as HTML
+2011-09-15T15:10:24+00:00 app[web.1]: Rendered users/index.html.erb within layouts/application (2.7ms)
+2011-09-15T15:10:24+00:00 app[web.1]: Completed 500 Internal Server Error in 5ms
+2011-09-15T15:10:24+00:00 app[web.1]: 
+2011-09-15T15:10:24+00:00 app[web.1]: ActionView::Template::Error (application.css isn't precompiled):
+2011-09-15T15:10:24+00:00 app[web.1]:     2: <html>
+2011-09-15T15:10:24+00:00 app[web.1]:     3: <head>
+2011-09-15T15:10:24+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-15T15:10:24+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-15T15:10:24+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-15T15:10:24+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-15T15:10:24+00:00 app[web.1]:     8: </head>
+2011-09-15T15:10:24+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1118656529062733393_15889600'
+2011-09-15T15:10:24+00:00 app[web.1]:   app/controllers/users_controller.rb:7:in `index'
+2011-09-15T15:10:24+00:00 app[web.1]: 
+2011-09-15T15:10:24+00:00 app[web.1]: 
+2011-09-15T15:10:24+00:00 app[web.1]: cache: [GET /users] miss
+2011-09-15T15:10:24+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/users dyno=web.1 queue=0 wait=0ms service=11ms status=500 bytes=728
+2011-09-15T15:25:18+00:00 app[web.1]: 
+2011-09-15T15:25:18+00:00 app[web.1]: 
+2011-09-15T15:25:18+00:00 app[web.1]: Started GET "/user" for 75.71.86.184 at 2011-09-15 08:25:18 -0700
+2011-09-15T15:25:18+00:00 app[web.1]: 
+2011-09-15T15:25:18+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/user"):
+2011-09-15T15:25:18+00:00 app[web.1]:   
+2011-09-15T15:25:18+00:00 app[web.1]: 
+2011-09-15T15:25:18+00:00 app[web.1]: 
+2011-09-15T15:25:18+00:00 app[web.1]: cache: [GET /user] miss
+2011-09-15T15:25:18+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/user dyno=web.1 queue=0 wait=0ms service=8ms status=404 bytes=728
+2011-09-15T15:25:18+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:08:25:18 -0700] "GET /user HTTP/1.1" 404 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T15:25:29+00:00 app[web.1]: 
+2011-09-15T15:25:29+00:00 app[web.1]: 
+2011-09-15T15:25:29+00:00 app[web.1]: Started GET "/us" for 75.71.86.184 at 2011-09-15 08:25:29 -0700
+2011-09-15T15:25:29+00:00 app[web.1]: 
+2011-09-15T15:25:29+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/us"):
+2011-09-15T15:25:29+00:00 app[web.1]:   
+2011-09-15T15:25:29+00:00 app[web.1]: 
+2011-09-15T15:25:29+00:00 app[web.1]: 
+2011-09-15T15:25:29+00:00 app[web.1]: cache: [GET /us] miss
+2011-09-15T15:25:29+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/us dyno=web.1 queue=0 wait=0ms service=6ms status=404 bytes=728
+2011-09-15T15:25:29+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:08:25:29 -0700] "GET /us HTTP/1.1" 404 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-15T16:27:36+00:00 heroku[web.1]: Idling
+2011-09-15T16:27:37+00:00 heroku[web.1]: State changed from up to down
+2011-09-15T16:27:37+00:00 heroku[web.1]: State changed from down to created
+2011-09-15T16:27:37+00:00 heroku[web.1]: State changed from created to starting
+2011-09-15T16:27:38+00:00 heroku[web.1]: Stopping process with SIGTERM
+2011-09-15T16:27:38+00:00 app[web.1]: >> Stopping ...
+2011-09-15T16:27:38+00:00 heroku[web.1]: Process exited
+2011-09-15T16:27:39+00:00 heroku[web.1]: Starting process with command `thin -p 44368 -e production -R /home/heroku_rack/heroku.ru start`
+2011-09-15T16:27:43+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
+2011-09-15T16:27:43+00:00 app[web.1]: >> Maximum connections set to 1024
+2011-09-15T16:27:43+00:00 app[web.1]: >> Listening on 0.0.0.0:44368, CTRL+C to stop
+2011-09-15T16:27:44+00:00 heroku[web.1]: State changed from starting to up
+2011-09-15T17:35:40+00:00 heroku[web.1]: Idling
+2011-09-15T17:35:41+00:00 heroku[web.1]: State changed from up to down
+2011-09-15T17:35:42+00:00 heroku[web.1]: Stopping process with SIGTERM
+2011-09-15T17:35:42+00:00 app[web.1]: >> Stopping ...
+2011-09-15T17:35:43+00:00 heroku[web.1]: Process exited
+2011-09-16T05:42:24+00:00 heroku[rake.8]: State changed from created to starting
+2011-09-16T05:42:27+00:00 app[rake.8]: Awaiting client
+2011-09-16T05:42:27+00:00 app[rake.8]: Starting process with command `bundle exec rake db:migrate`
+2011-09-16T05:42:28+00:00 heroku[rake.8]: State changed from starting to up
+2011-09-16T05:42:31+00:00 heroku[rake.8]: Process exited
+2011-09-16T05:42:32+00:00 heroku[rake.8]: State changed from up to complete
+2011-09-16T05:47:24+00:00 heroku[web.1]: Unidling
+2011-09-16T05:47:24+00:00 heroku[web.1]: State changed from down to created
+2011-09-16T05:47:24+00:00 heroku[web.1]: State changed from created to starting
+2011-09-16T05:47:27+00:00 heroku[web.1]: Starting process with command `thin -p 18472 -e production -R /home/heroku_rack/heroku.ru start`
+2011-09-16T05:47:33+00:00 heroku[web.1]: State changed from starting to up
+2011-09-16T05:47:33+00:00 app[web.1]: cache: [GET /] miss
+2011-09-16T05:47:33+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/ dyno=web.1 queue=0 wait=0ms service=17ms status=200 bytes=5907
+2011-09-16T05:47:33+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:22:47:33 -0700] "GET / HTTP/1.1" 200 1865 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-16T05:47:33+00:00 app[web.1]: 
+2011-09-16T05:47:33+00:00 app[web.1]: 
+2011-09-16T05:47:33+00:00 app[web.1]: Started GET "/assets/rails.png" for 75.71.86.184 at 2011-09-15 22:47:33 -0700
+2011-09-16T05:47:33+00:00 app[web.1]: cache: [GET /assets/rails.png] miss, store
+2011-09-16T05:47:33+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=21ms status=200 bytes=6646
+2011-09-16T05:47:33+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:22:47:33 -0700] "GET /assets/rails.png HTTP/1.1" 304 0 "http://fierce-snow-4893.heroku.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-16T05:47:33+00:00 app[web.1]: cache: [GET /favicon.ico] miss
+2011-09-16T05:47:33+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:22:47:33 -0700] "GET /favicon.ico HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/
+13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-16T05:47:33+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=3ms status=200 bytes=0
+2011-09-16T05:47:37+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/ dyno=web.1 queue=0 wait=0ms service=5ms status=200 bytes=5907
+2011-09-16T05:47:37+00:00 app[web.1]: cache: [GET /] miss
+2011-09-16T05:47:37+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:22:47:37 -0700] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-16T05:47:43+00:00 app[web.1]: 
+2011-09-16T05:47:43+00:00 app[web.1]: 
+2011-09-16T05:47:43+00:00 app[web.1]: Started GET "/rails/info/properties" for 75.71.86.184 at 2011-09-15 22:47:43 -0700
+2011-09-16T05:47:43+00:00 app[web.1]: 
+2011-09-16T05:47:43+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/rails/info/properties"):
+2011-09-16T05:47:43+00:00 app[web.1]:   
+2011-09-16T05:47:43+00:00 app[web.1]: 
+2011-09-16T05:47:43+00:00 app[web.1]: 
+2011-09-16T05:47:43+00:00 app[web.1]: cache: [GET /rails/info/properties] miss
+2011-09-16T05:47:43+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/rails/info/properties dyno=web.1 queue=0 wait=0ms service=14ms status=404 bytes=728
+2011-09-16T05:47:43+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:22:47:43 -0700] "GET /rails/info/properties HTTP/1.1" 404 728 "http://fierce-snow-4893.heroku.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-16T05:47:53+00:00 app[web.1]: 
+2011-09-16T05:47:53+00:00 app[web.1]: 
+2011-09-16T05:47:53+00:00 app[web.1]: Started GET "/assets/rails.png" for 75.71.86.184 at 2011-09-15 22:47:53 -0700
+2011-09-16T05:47:53+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=6ms status=200 bytes=6646
+2011-09-16T05:47:53+00:00 app[web.1]: cache: [GET /assets/rails.png] stale, valid, store
+2011-09-16T05:47:53+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:22:47:53 -0700] "GET /assets/rails.png HTTP/1.1" 304 0 "http://fierce-snow-4893.heroku.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-16T05:48:02+00:00 app[web.1]: 
+2011-09-16T05:48:02+00:00 app[web.1]: 
+2011-09-16T05:48:02+00:00 app[web.1]: Started GET "/rails/info/properties" for 75.71.86.184 at 2011-09-15 22:48:02 -0700
+2011-09-16T05:48:02+00:00 app[web.1]: 
+2011-09-16T05:48:02+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/rails/info/properties"):
+2011-09-16T05:48:02+00:00 app[web.1]:   
+2011-09-16T05:48:02+00:00 app[web.1]: 
+2011-09-16T05:48:02+00:00 app[web.1]: 
+2011-09-16T05:48:02+00:00 app[web.1]: cache: [GET /rails/info/properties] miss
+2011-09-16T05:48:02+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:22:48:02 -0700] "GET /rails/info/properties HTTP/1.1" 404 728 "http://fierce-snow-4893.heroku.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-16T05:48:09+00:00 app[web.1]: 
+2011-09-16T05:48:09+00:00 app[web.1]: 
+2011-09-16T05:48:09+00:00 app[web.1]: Started GET "/rails/info/properties" for 75.71.86.184 at 2011-09-15 22:48:09 -0700
+2011-09-16T05:48:09+00:00 app[web.1]: 
+2011-09-16T05:48:09+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/rails/info/properties"):
+2011-09-16T05:48:09+00:00 app[web.1]:   
+2011-09-16T05:48:09+00:00 app[web.1]: 
+2011-09-16T05:48:09+00:00 app[web.1]: 
+2011-09-16T05:48:09+00:00 app[web.1]: cache: [GET /rails/info/properties] miss
+2011-09-16T05:48:09+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/rails/info/properties dyno=web.1 queue=0 wait=0ms service=5ms status=404 bytes=728
+2011-09-16T05:48:09+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:22:48:09 -0700] "GET /rails/info/properties HTTP/1.1" 404 728 "http://fierce-snow-4893.heroku.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-16T05:48:24+00:00 app[web.1]: 
+2011-09-16T05:48:24+00:00 app[web.1]: 
+2011-09-16T05:48:24+00:00 app[web.1]: Started GET "/assets/rails.png" for 75.71.86.184 at 2011-09-15 22:48:24 -0700
+2011-09-16T05:48:24+00:00 app[web.1]: cache: [GET /assets/rails.png] stale, valid, store
+2011-09-16T05:48:24+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=6ms status=200 bytes=6646
+2011-09-16T05:48:24+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:22:48:24 -0700] "GET /assets/rails.png HTTP/1.1" 304 0 "http://fierce-snow-4893.heroku.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-16T05:48:33+00:00 app[web.1]: 
+2011-09-16T05:48:33+00:00 app[web.1]: 
+2011-09-16T05:48:33+00:00 app[web.1]: Started GET "/users" for 75.71.86.184 at 2011-09-15 22:48:33 -0700
+2011-09-16T05:48:33+00:00 app[web.1]:   Processing by UsersController#index as HTML
+2011-09-16T05:48:33+00:00 app[web.1]: Rendered users/index.html.erb within layouts/application (47.0ms)
+2011-09-16T05:48:33+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/users dyno=web.1 queue=0 wait=0ms service=160ms status=500 bytes=728
+2011-09-16T05:48:33+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:22:48:33 -0700] "GET /users HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-16T05:48:33+00:00 app[web.1]: Completed 500 Internal Server Error in 128ms
+2011-09-16T05:48:33+00:00 app[web.1]: 
+2011-09-16T05:48:33+00:00 app[web.1]: ActionView::Template::Error (application.css isn't precompiled):
+2011-09-16T05:48:33+00:00 app[web.1]:     2: <html>
+2011-09-16T05:48:33+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2754825012729281326_11163200'
+2011-09-16T05:52:06+00:00 app[web.1]: 
+2011-09-16T05:52:06+00:00 app[web.1]: 
+2011-09-16T05:52:06+00:00 app[web.1]: Started GET "/microposts" for 75.71.86.184 at 2011-09-15 22:52:06 -0700
+2011-09-16T05:52:06+00:00 app[web.1]:   Processing by MicropostsController#index as HTML
+2011-09-16T05:52:06+00:00 app[web.1]: Rendered microposts/index.html.erb within layouts/application (7.1ms)
+2011-09-16T05:52:06+00:00 app[web.1]: Completed 500 Internal Server Error in 19ms
+2011-09-16T05:52:06+00:00 app[web.1]: 
+2011-09-16T05:52:06+00:00 app[web.1]: ActionView::Template::Error (application.css isn't precompiled):
+2011-09-16T05:52:06+00:00 app[web.1]:     2: <html>
+2011-09-16T05:52:06+00:00 app[web.1]:     3: <head>
+2011-09-16T05:52:06+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-16T05:52:06+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-16T05:52:06+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-16T05:52:06+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-16T05:52:06+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/microposts dyno=web.1 queue=0 wait=0ms service=26ms status=500 bytes=728
+2011-09-16T05:52:06+00:00 app[web.1]:     8: </head>
+2011-09-16T05:52:06+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2754825012729281326_11163200'
+2011-09-16T05:52:06+00:00 app[web.1]:   app/controllers/microposts_controller.rb:7:in `index'
+2011-09-16T05:52:06+00:00 app[web.1]: 
+2011-09-16T05:52:06+00:00 app[web.1]: 
+2011-09-16T05:52:06+00:00 app[web.1]: cache: [GET /microposts] miss
+2011-09-16T05:52:06+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:22:52:06 -0700] "GET /microposts HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-16T05:53:11+00:00 app[web.1]: 
+2011-09-16T05:53:11+00:00 app[web.1]: 
+2011-09-16T05:53:11+00:00 app[web.1]: Started GET "/microposts" for 75.71.86.184 at 2011-09-15 22:53:11 -0700
+2011-09-16T05:53:11+00:00 app[web.1]:   Processing by MicropostsController#index as HTML
+2011-09-16T05:53:11+00:00 app[web.1]: Rendered microposts/index.html.erb within layouts/application (2.0ms)
+2011-09-16T05:53:11+00:00 app[web.1]: Completed 500 Internal Server Error in 5ms
+2011-09-16T05:53:11+00:00 app[web.1]: 
+2011-09-16T05:53:11+00:00 app[web.1]: ActionView::Template::Error (application.css isn't precompiled):
+2011-09-16T05:53:11+00:00 app[web.1]:     2: <html>
+2011-09-16T05:53:11+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/microposts dyno=web.1 queue=0 wait=0ms service=12ms status=500 bytes=728
+2011-09-16T05:53:11+00:00 app[web.1]:     3: <head>
+2011-09-16T05:53:11+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-16T05:53:11+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-16T05:53:11+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-16T05:53:11+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-16T05:53:11+00:00 app[web.1]:     8: </head>
+2011-09-16T05:53:11+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2754825012729281326_11163200'
+2011-09-16T05:53:11+00:00 app[web.1]:   app/controllers/microposts_controller.rb:7:in `index'
+2011-09-16T05:53:11+00:00 app[web.1]: 
+2011-09-16T05:53:11+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:22:53:11 -0700] "GET /microposts HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1 Safari/534.48.3" fierce-snow-4893.heroku.com
+2011-09-16T05:53:11+00:00 app[web.1]: 
+2011-09-16T05:53:11+00:00 app[web.1]: cache: [GET /microposts] miss
+2011-09-16T05:53:11+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=0
+2011-09-16T05:53:11+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:22:53:11 -0700] "GET /favicon.ico HTTP/1.1" 200 0 "http://fierce-snow-4893.heroku.com/microposts" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1 Safari/534.48.3" fierce-snow-4893.heroku.com
+2011-09-16T06:08:02+00:00 heroku[slugc]: Slug compilation started
+2011-09-16T06:08:23+00:00 heroku[api]: Deploy ad976dd by reena.kuni@gmail.com
+2011-09-16T06:08:23+00:00 heroku[api]: Release v7 created by reena.kuni@gmail.com
+2011-09-16T06:08:24+00:00 heroku[web.1]: State changed from up to bouncing
+2011-09-16T06:08:24+00:00 heroku[web.1]: State changed from bouncing to created
+2011-09-16T06:08:24+00:00 heroku[web.1]: State changed from created to starting
+2011-09-16T06:08:24+00:00 heroku[slugc]: Slug compilation finished
+2011-09-16T06:08:25+00:00 app[web.1]: >> Stopping ...
+2011-09-16T06:08:25+00:00 heroku[web.1]: Stopping process with SIGTERM
+2011-09-16T06:08:26+00:00 heroku[web.1]: Process exited
+2011-09-16T06:08:27+00:00 heroku[web.1]: Starting process with command `thin -p 48862 -e production -R /home/heroku_rack/heroku.ru start`
+2011-09-16T06:08:31+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
+2011-09-16T06:08:31+00:00 app[web.1]: >> Maximum connections set to 1024
+2011-09-16T06:08:31+00:00 app[web.1]: >> Listening on 0.0.0.0:48862, CTRL+C to stop
+2011-09-16T06:08:31+00:00 heroku[web.1]: State changed from starting to up
+2011-09-16T06:08:32+00:00 app[web.1]: 
+2011-09-16T06:08:32+00:00 app[web.1]: 
+2011-09-16T06:08:32+00:00 app[web.1]: Started GET "/microposts" for 75.71.86.184 at 2011-09-15 23:08:32 -0700
+2011-09-16T06:08:32+00:00 app[web.1]:   Processing by MicropostsController#index as HTML
+2011-09-16T06:08:32+00:00 app[web.1]: Rendered microposts/index.html.erb within layouts/application (22.1ms)
+2011-09-16T06:08:33+00:00 app[web.1]: Completed 500 Internal Server Error in 710ms
+2011-09-16T06:08:33+00:00 app[web.1]: 
+2011-09-16T06:08:33+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-09-16T06:08:33+00:00 app[web.1]:   (in /app/app/assets/javascripts/microposts.js.coffee)):
+2011-09-16T06:08:33+00:00 app[web.1]:     3: <head>
+2011-09-16T06:08:33+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-16T06:08:33+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/microposts dyno=web.1 queue=0 wait=0ms service=775ms status=500 bytes=728
+2011-09-16T06:08:33+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-16T06:08:33+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-16T06:08:33+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-16T06:08:33+00:00 app[web.1]:     8: </head>
+2011-09-16T06:08:33+00:00 app[web.1]:     9: <body>
+2011-09-16T06:08:33+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2872799067175234164_18058860'
+2011-09-16T06:08:33+00:00 app[web.1]:   app/controllers/microposts_controller.rb:7:in `index'
+2011-09-16T06:08:33+00:00 app[web.1]: 
+2011-09-16T06:08:33+00:00 app[web.1]: 
+2011-09-16T06:08:33+00:00 app[web.1]: cache: [GET /microposts] miss
+2011-09-16T06:08:33+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:23:08:33 -0700] "GET /microposts HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
+2011-09-16T06:08:37+00:00 app[web.1]: 
+2011-09-16T06:08:37+00:00 app[web.1]: 
+2011-09-16T06:08:37+00:00 app[web.1]: Started GET "/users" for 75.71.86.184 at 2011-09-15 23:08:37 -0700
+2011-09-16T06:08:37+00:00 app[web.1]:   Processing by UsersController#index as HTML
+2011-09-16T06:08:37+00:00 app[web.1]: Rendered users/index.html.erb within layouts/application (8.5ms)
+2011-09-16T06:08:37+00:00 app[web.1]: Completed 500 Internal Server Error in 95ms
+2011-09-16T06:08:37+00:00 app[web.1]: 
+2011-09-16T06:08:37+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-09-16T06:08:37+00:00 app[web.1]:   (in /app/app/assets/javascripts/microposts.js.coffee)):
+2011-09-16T06:08:37+00:00 app[web.1]:     3: <head>
+2011-09-16T06:08:37+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-16T06:08:37+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-16T06:08:37+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-16T06:08:37+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-16T06:08:37+00:00 app[web.1]:     8: </head>
+2011-09-16T06:08:37+00:00 app[web.1]:     9: <body>
+2011-09-16T06:08:37+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2872799067175234164_18058860'
+2011-09-16T06:08:37+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/users dyno=web.1 queue=0 wait=0ms service=105ms status=500 bytes=728
+2011-09-16T06:08:37+00:00 app[web.1]:   app/controllers/users_controller.rb:7:in `index'
+2011-09-16T06:08:37+00:00 app[web.1]: 
+2011-09-16T06:08:37+00:00 app[web.1]: 
+2011-09-16T06:08:37+00:00 app[web.1]: cache: [GET /users] miss
+2011-09-16T06:08:40+00:00 app[web.1]: 
+2011-09-16T06:08:40+00:00 app[web.1]: 
+2011-09-16T06:08:40+00:00 app[web.1]: Started GET "/users" for 75.71.86.184 at 2011-09-15 23:08:40 -0700
+2011-09-16T06:08:40+00:00 app[web.1]:   Processing by UsersController#index as HTML
+2011-09-16T06:08:40+00:00 app[web.1]: Rendered users/index.html.erb within layouts/application (2.4ms)
+2011-09-16T06:08:40+00:00 app[web.1]: Completed 500 Internal Server Error in 47ms
+2011-09-16T06:08:40+00:00 app[web.1]: 
+2011-09-16T06:08:40+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-09-16T06:08:40+00:00 app[web.1]:   (in /app/app/assets/javascripts/microposts.js.coffee)):
+2011-09-16T06:08
+:40+00:00 app[web.1]:     3: <head>
+2011-09-16T06:08:40+00:00 app[web.1]:     4:   <title>DemoApp</title>
+2011-09-16T06:08:40+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application" %>
+2011-09-16T06:08:40+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2011-09-16T06:08:40+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2011-09-16T06:08:40+00:00 app[web.1]:     8: </head>
+2011-09-16T06:08:40+00:00 heroku[router]: GET fierce-snow-4893.heroku.com/users dyno=web.1 queue=0 wait=0ms service=55ms status=500 bytes=728
+2011-09-16T06:08:40+00:00 app[web.1]:     9: <body>
+2011-09-16T06:08:40+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2872799067175234164_18058860'
+2011-09-16T06:08:40+00:00 app[web.1]:   app/controllers/users_controller.rb:7:in `index'
+2011-09-16T06:08:40+00:00 app[web.1]: 
+2011-09-16T06:08:40+00:00 app[web.1]: 
+2011-09-16T06:08:40+00:00 app[web.1]: cache: [GET /users] miss
+2011-09-16T06:08:40+00:00 heroku[nginx]: 75.71.86.184 - - [15/Sep/2011:23:08:40 -0700] "GET /users HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1" fierce-snow-4893.heroku.com
